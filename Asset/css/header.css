@@ -6,3 +6,28 @@ img{
     border-radius: 50%;
     border: 3px solid white;
     }
+      /* Conteneur principal, centré dans la page */
+      .icon-container {
+        display: flex;
+        justify-content: center; /* Centre le conteneur */
+        align-items: center;     /* Centre verticalement */
+    }
+
+    /* Grille avec deux colonnes et deux lignes */
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(2, auto); /* Deux colonnes */
+        grid-gap: 20px; /* Espacement entre les éléments */
+    }
+
+    /* Alignement des icônes et du texte */
+    .icon-text {
+        display: flex;
+        align-items: center;
+        text-align: left; /* Aligner le texte et l'icône à gauche */
+    }
+
+    /* Espacement entre icône et texte */
+    .icon-text i {
+        margin-right: 10px; /* Espacement entre l'icône et le texte */
+    }
