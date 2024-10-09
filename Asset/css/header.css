@@ -1,5 +1,5 @@
 
-img{
+.header-left img{
     position: relative;
     align-items: center;
     width: 200px;
@@ -30,4 +30,9 @@ img{
     /* Espacement entre icône et texte */
     .icon-text i {
         margin-right: 10px; /* Espacement entre l'icône et le texte */
+    }
+
+    .icon-container img{
+        width: 20px;
+        margin-right: 10px;
     }
