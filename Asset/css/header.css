@@ -27,12 +27,9 @@
         text-align: left; /* Aligner le texte et l'icône à gauche */
     }
 
-    /* Espacement entre icône et texte */
-    .icon-text i {
-        margin-right: 10px; /* Espacement entre l'icône et le texte */
-    }
-
+ 
     .icon-container img{
         width: 20px;
-        margin-right: 10px;
+        margin-right: 10px; /* Espacement entre icône et texte */
+
     }
