@@ -1,0 +1,6 @@
+.footer img {
+    width: 20px;  /* Définit la largeur de chaque icône à 20px */
+    height: 20px; /* Définit la hauteur de chaque icône à 20px */
+    margin: 0 10px; /* Ajoute un espace de 10px entre les icônes */
+    vertical-align: middle; /* Aligne les icônes au centre verticalement */
+  }
