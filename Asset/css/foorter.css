@@ -1,6 +1,11 @@
-.footer img {
-    width: 20px;  /* Définit la largeur de chaque icône à 20px */
-    height: 20px; /* Définit la hauteur de chaque icône à 20px */
-    margin: 0 10px; /* Ajoute un espace de 10px entre les icônes */
-    vertical-align: middle; /* Aligne les icônes au centre verticalement */
-  }
+.icon-container {
+  display: flex;
+  justify-content: center; /* Centrer les icônes horizontalement */
+  gap: 10px; /* Espace entre chaque icône */
+  margin-bottom: 10px;
+}
+
+.icon-container img {
+  width: 20px;  /* Définir la taille des icônes à 20px */
+  height: 20px; /* Assurer que l'icône est bien carrée */
+}
