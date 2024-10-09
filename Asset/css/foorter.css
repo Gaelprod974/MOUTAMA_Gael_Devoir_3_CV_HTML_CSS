@@ -1,0 +1,11 @@
+.icon-container {
+  display: flex;
+  justify-content: center; /* Centrer les icônes horizontalement */
+  gap: 10px; /* Espace entre chaque icône */
+  margin-bottom: 10px;
+}
+
+.icon-container img {
+  width: 20px;  /* Définir la taille des icônes à 20px */
+  height: 20px; /* Assurer que l'icône est bien carrée */
+}
