@@ -32,3 +32,6 @@
         width: 20px;
         margin-right: 10px; /* Espacement entre icône et texte */
     }
+    .header-right h2{
+        color: white;
+    }

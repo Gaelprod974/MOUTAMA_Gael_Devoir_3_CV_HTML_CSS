@@ -1,0 +1,27 @@
+.stars-right img {
+    width: 20px;  /* Définit la largeur de chaque icône à 20px */
+    height: 20px; /* Définit la hauteur de chaque icône à 20px */
+    margin: 0 5px; /* Ajoute un espace de 10px entre les icônes */
+    vertical-align: middle; /* Aligne les icônes au centre verticalement */
+  }
+  
+  .rating-container {
+    display: flex;                  /* Utilisation de flexbox pour l'alignement */
+    justify-content: space-between; /* Espacement entre le texte et les étoiles */
+    align-items: center;            /* Alignement vertical */
+    margin-top: 10px;              /* Espace au-dessus de la ligne d'évaluation */
+}
+
+.text-left {
+    text-align: left;               /* Alignement du texte à gauche */
+    flex-grow: 1;                   /* Prend tout l'espace disponible à gauche */
+}
+
+.stars-right {
+    white-space: nowrap;            /* Empêche les étoiles de se déplacer sur plusieurs lignes */
+}
+
+.stars-right img {
+    margin-left: 5px;               /* Espacement entre les étoiles */
+    vertical-align: middle;         /* Aligne les images verticalement avec le texte */
+}
