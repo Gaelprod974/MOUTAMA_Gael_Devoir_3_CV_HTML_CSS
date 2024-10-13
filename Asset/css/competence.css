@@ -25,3 +25,14 @@
     margin-left: 5px;               /* Espacement entre les étoiles */
     vertical-align: middle;         /* Aligne les images verticalement avec le texte */
 }
+
+.square-text {
+    display: flex;
+    align-items: center; /* Aligne le texte et l'image au centre verticalement */
+    gap: 10px; /* Espace entre le carré et le texte */
+}
+.square-text img{
+    width: 15px;  /* Définit la largeur de chaque icône à 20px */
+    height: 15px; /* Définit la hauteur de chaque icône à 20px */
+    margin-bottom: 10px;
+}
