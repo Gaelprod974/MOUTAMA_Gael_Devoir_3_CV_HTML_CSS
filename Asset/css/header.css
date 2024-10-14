@@ -39,3 +39,9 @@
         text-decoration: none;
         color:#ffffff;
     }
+
+    .header-left img {
+        transition: transform 0.3s ease; /* Effet de transition pour le zoom */
+        cursor: zoom-in; /* Indique que l'image peut être zoomée */
+        object-fit: cover; /* Permet de maintenir le cadrage */
+      }
