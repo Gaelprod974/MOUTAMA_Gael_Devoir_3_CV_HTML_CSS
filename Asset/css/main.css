@@ -3,7 +3,6 @@
     text-align: justify; /* Justification du texte */
 }
 
-
 .formation {
     display: flex;            /* Utilise Flexbox pour la mise en page */
     justify-content: space-between; /* Espace entre les éléments */
@@ -15,7 +14,6 @@
     font-size: 0.8em;         /* Définit la taille de la police à 80% de l'élément parent */
     margin-top: 0;            /* Supprime la marge supérieure pour enlever l'espace */
     margin-bottom: 15px;
-
 }
 .date-formation {
     color: #17abb3;              /* Définit la couleur du texte à bleu */
@@ -30,18 +28,14 @@
     margin-top: 0;
 }
 
-
-
 .effet {
     position: relative; /* Nécessaire pour positionner le trait vertical */
-    transition: background-color 0.3s, border-left-color 0.3s; /* Transition pour l'effet de survol */
-
+    padding: 2px;
 }
 
 /* Couleur de fond au survol et changement de couleur du trait */
 .effet:hover {
-    border-left: 4px solid #17abb3; /* Couleur du trait au survol */
-
+    border-left: 10px solid #17abb3; /* Couleur du trait au survol */
+    padding-right: 10px;
     background-color: #e3e3e3; /* Couleur de fond au survol */
-    margin-left: 10px; /* Espacement entre les éléments */
 }
