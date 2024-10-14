@@ -1,4 +1,31 @@
-.right-column p {
+.indent p {
     text-indent: 30px;  /* Indentation de la première ligne */
     text-align: justify; /* Justification du texte */
+}
+
+
+.formation {
+    display: flex;            /* Utilise Flexbox pour la mise en page */
+    justify-content: space-between; /* Espace entre les éléments */
+    align-items: center;      /* Aligne les éléments au centre verticalement */
+    text-align: left;         /* Aligne le texte à gauche */
+}
+.italic {
+    font-style: italic;       /* Applique le style italique */
+    font-size: 0.8em;         /* Définit la taille de la police à 80% de l'élément parent */
+    margin-top: 0;            /* Supprime la marge supérieure pour enlever l'espace */
+    margin-bottom: 15px;
+
+}
+.date-formation {
+    color: blue;              /* Définit la couleur du texte à bleu */
+    margin-left: 10px;        /* Ajoute un espace à gauche pour séparer du titre */
+    line-height: 1.5;         /* Ajuste la hauteur de ligne pour un meilleur alignement */
+    display: inline-block;     /* Utilise un élément en ligne pour un meilleur contrôle d'alignement */
+    font-weight: bold;      /* Met la date en gras */
+}
+
+.nom-formation{
+    margin-bottom: 0;
+    margin-top: 0;
 }
