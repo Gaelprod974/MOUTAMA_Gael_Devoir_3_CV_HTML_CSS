@@ -1,0 +1,4 @@
+.right-column p {
+    text-indent: 30px;  /* Indentation de la première ligne */
+    text-align: justify; /* Justification du texte */
+}
