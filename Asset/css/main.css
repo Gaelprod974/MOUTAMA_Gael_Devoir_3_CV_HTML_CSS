@@ -18,7 +18,7 @@
 
 }
 .date-formation {
-    color: blue;              /* Définit la couleur du texte à bleu */
+    color: #17abb3;              /* Définit la couleur du texte à bleu */
     margin-left: 10px;        /* Ajoute un espace à gauche pour séparer du titre */
     line-height: 1.5;         /* Ajuste la hauteur de ligne pour un meilleur alignement */
     display: inline-block;     /* Utilise un élément en ligne pour un meilleur contrôle d'alignement */
@@ -28,4 +28,20 @@
 .nom-formation{
     margin-bottom: 0;
     margin-top: 0;
+}
+
+
+
+.effet {
+    position: relative; /* Nécessaire pour positionner le trait vertical */
+    transition: background-color 0.3s, border-left-color 0.3s; /* Transition pour l'effet de survol */
+
+}
+
+/* Couleur de fond au survol et changement de couleur du trait */
+.effet:hover {
+    border-left: 4px solid #17abb3; /* Couleur du trait au survol */
+
+    background-color: #e3e3e3; /* Couleur de fond au survol */
+    margin-left: 10px; /* Espacement entre les éléments */
 }
